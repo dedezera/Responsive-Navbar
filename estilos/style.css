@@ -173,11 +173,11 @@ section#form-login button {
     border-radius: 3px;
     color: rgb(255, 255, 255);
     font-family: Archivo, sans-serif;
-    font-weight: 400;
-    font-size: 0.9375rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.32px;
-    appearance: none;
+    /* font-weight: 400; */
+    /* font-size: 0.9375rem; */
+    /* line-height: 1.5rem; */
+    /* letter-spacing: 0.32px; */
+    /* appearance: none; */
 }
 
 .submit-btn {
@@ -195,6 +195,18 @@ section#form-login button {
     background-color: rgb(53, 106, 253);
     transition: all 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
     cursor: pointer;
+}
+
+fieldset legend {
+    color: #fff;
+    padding: 0px 0.25rem;
+    font-family: Archivo, sans-serif;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
 
 /* DROPDOWN MENU */
