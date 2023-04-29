@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -40,6 +41,10 @@
         <section id="form-login">
             <h1>Junte-se e compita hoje</h1>
             <p>Log in</p>
+            <div id="recado">
+                <p><span>Sua conta agora é CSZ ID!</span><br>
+                    Pensando em uma melhor experiência para você, o seu jeito de fazer login e criar conta mudou! Se você já tem uma conta CSZ, faça login usando e-mail e senha, Steam ou Facebook.</p>
+            </div>
            <form action="#">
             <fieldset>
                 <label for="email" id="iemail">Email</label>
@@ -49,7 +54,7 @@
                 <label for="senha" id="isenha">Senha</label>
                 <input type="Senha" name="senha" id="isenha" placeholder="Sua senha" required minlength="8"><br>
             </fieldset>
-            <button type="submit">Entrar</button><br>
+            <button type="submit" class="submit-btn">Entrar</button><br>
             <a href="#">Esqueci minha senha</a>
            </form>
         </section>
