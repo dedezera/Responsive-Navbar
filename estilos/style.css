@@ -47,7 +47,7 @@ header {
     right: 0;
     width: 100%;
     z-index: 1;
-  }
+}
 
 .navbar {
     width: 100%;
@@ -85,6 +85,7 @@ header {
     outline: none;
     border-radius: 20px;
     font-size: 0.8rem;
+    text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
@@ -97,6 +98,40 @@ header {
 
 .action-btn:active {
     scale: 0.95;
+}
+
+/* MAIN */
+
+section#form-login {
+    border: 1px solid #fff;
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+section#form-login h1, p, a {
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+
+section#form-login h1 {
+    padding: 3rem;
+}
+
+section#form-login {
+    font-size: 1.25rem;
+}
+
+section#form-login label {
+    color: #fff;
+}
+
+#iemail, #isenha {
+    width: 25rem;
+    height: 2.3rem;
 }
 
 /* DROPDOWN MENU */
@@ -159,11 +194,10 @@ header {
         display: block;
     }
 
-
-@media (max-width: 576px) {
-    .dropdown_menu {
-        left: 2rem;
-        width: unset;
+    @media (max-width: 576px) {
+        .dropdown_menu {
+            left: 2rem;
+            width: unset;
+        }
     }
 }
-
