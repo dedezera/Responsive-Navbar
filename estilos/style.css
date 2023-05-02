@@ -141,11 +141,11 @@ header {
 
 /* RESPONSIVE DESIGN */
 
-@media (max-width: 992px) {
+@media (max-width: 840px) {
     
     body {
-        background-image: none;
-        background: linear-gradient(320deg, #1C2534, #333232);
+        /* background-image: none; */
+        /* background: linear-gradient(320deg, #1C2534, #333232); */
         }
 
     .navbar .links,
