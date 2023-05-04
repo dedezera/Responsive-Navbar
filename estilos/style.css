@@ -143,10 +143,10 @@ header {
 
 @media (max-width: 840px) {
     
-    body {
-        /* background-image: none; */
-        /* background: linear-gradient(320deg, #1C2534, #333232); */
-        }
+    /* body {
+         background-image: none; 
+        background: linear-gradient(320deg, #1C2534, #333232);
+        } */
 
     .navbar .links,
     .navbar .action-btn {
